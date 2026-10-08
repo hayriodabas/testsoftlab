@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — TestSoft</title>
-  <meta name="description" content="TestSoft Studio Privacy Policy. Zero personal data collected, zero tracking, 100% on-device processing.">
+  <title>Privacy Policy — TestSoft Lab</title>
+  <meta name="description" content="TestSoft Studio Privacy Policy. Zero personal data collected, zero telemetry, 100% on-device processing.">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/png" href="assets/images/icon-plantlight.png">
   <style>
     .legal-content {
-      max-width: 820px;
+      max-width: 860px;
       margin: 60px auto 100px;
-      padding: 40px;
+      padding: 44px;
       background: var(--bg-card);
       border: 1px solid var(--border-subtle);
       border-radius: var(--radius-lg);
@@ -29,14 +29,14 @@
       display: block;
     }
     .legal-content h2 {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
       font-weight: 700;
       margin: 36px 0 16px;
       color: var(--accent-cyan);
     }
     .legal-content p, .legal-content li {
       color: var(--text-muted);
-      font-size: 1rem;
+      font-size: 0.98rem;
       line-height: 1.7;
       margin-bottom: 16px;
     }
@@ -47,14 +47,15 @@
     .legal-callout {
       background: rgba(16, 185, 129, 0.1);
       border-left: 4px solid var(--accent-emerald);
-      padding: 16px 20px;
+      padding: 18px 22px;
       border-radius: var(--radius-sm);
       margin: 24px 0;
     }
     .legal-callout strong {
       color: var(--accent-emerald);
       display: block;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
+      font-size: 1.05rem;
     }
   </style>
 </head>
@@ -63,16 +64,19 @@
     <div class="container nav-content">
       <a href="index.html" class="brand">
         <div class="brand-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
         </div>
-        <span class="brand-name">TestSoft<span class="brand-dot">.</span></span>
+        <div class="brand-text-group">
+          <span class="brand-name">TestSoft<span class="brand-dot">Lab</span></span>
+          <span class="brand-sub">Apple Systems &amp; Apps</span>
+        </div>
       </a>
       <nav class="nav-links">
-        <a href="index.html#apps">All Apps</a>
-        <a href="support.html">Support</a>
-        <a href="mailto:hayriodabas@testsoftlab.com" class="btn btn-sm btn-outline">Contact</a>
+        <a href="index.html#portfolio">All Instruments</a>
+        <a href="support.html">Documentation</a>
+        <a href="mailto:hayriodabas@testsoftlab.com" class="btn btn-sm btn-outline">Contact Desk</a>
       </nav>
     </div>
   </header>
@@ -83,64 +87,65 @@
       <span class="legal-date">Last updated: October 8, 2026 · Effective Date: October 8, 2026</span>
 
       <div class="legal-callout">
-        <strong>Summary: We do not collect your personal data.</strong>
-        All TestSoft applications are engineered from the ground up to operate entirely on your device. We do not operate tracking servers, we do not require account logins, and we never sell or share user information.
+        <strong>Official Guarantee: Data Not Collected</strong>
+        All software published by TestSoft Lab (Hayri Odabaş, testsoftlab.com) operates strictly on-device. We run zero tracking infrastructure, integrate zero analytics SDKs, and never transmit your sensitive personal information to third-party endpoints.
       </div>
 
-      <h2>1. The TestSoft Privacy Commitment</h2>
+      <h2>1. The TestSoft Architecture Guarantee</h2>
       <p>
-        TestSoft ("we", "us", or "our"), operated by Hayri Odabaş (testsoftlab.com), builds standalone utilities for Apple iOS and iPadOS. Our fundamental design philosophy is that user privacy is a non-negotiable standard.
+        TestSoft Lab builds dedicated native utilities for iOS, iPadOS, and macOS. Our engineering architecture operates on the principle of sovereign silicon: compute, analysis, and storage must terminate on your personal device.
       </p>
 
-      <h2>2. Data Collection &amp; Tracking</h2>
+      <h2>2. Third-Party Analytics &amp; Advertising</h2>
       <p>Across our entire application lineup:</p>
       <ul>
-        <li><strong>Zero Analytics:</strong> We do not integrate third-party analytics SDKs (such as Google Firebase Analytics, Mixpanel, or Meta SDK).</li>
-        <li><strong>Zero Advertising Trackers:</strong> Our apps contain no third-party behavioral advertising or tracking networks.</li>
-        <li><strong>No User Accounts:</strong> You do not need to create an account, register an email address, or provide any identity credentials to use our apps.</li>
+        <li><strong>Zero Analytics SDKs:</strong> No Firebase, Google Analytics, Mixpanel, Amplitude, or similar behavioral telemetry software is compiled into our binary distributions.</li>
+        <li><strong>Zero Ad Trackers:</strong> We do not integrate advertising SDKs, IDFA collection, or cross-app tracking networks.</li>
+        <li><strong>No Account Gatekeeping:</strong> None of our applications require registration, logins, passwords, or cloud database profiling.</li>
       </ul>
 
-      <h2>3. Device Permissions &amp; How They Are Used</h2>
-      <p>Some of our utility applications request system permissions to deliver their core functions. In every case, this processing occurs strictly on your device:</p>
+      <h2>3. Specific Hardware Permissions &amp; Zero Retention</h2>
+      <p>Several instruments require system sensor access to perform calculations. In all cases, access is ephemeral and non-retained:</p>
       <ul>
         <li>
-          <strong>Camera (Plant Light Meter &amp; Exposure):</strong> Used in real time to calculate ambient exposure parameters (lux and light integral). No photographs, video clips, or image streams are ever saved, recorded, or transmitted to any server.
+          <strong>Camera Sensors (Plant Light Meter &amp; Exposure):</strong> Used exclusively to sample instantaneous exposure values (aperture, ISO, exposure time) in volatile memory. No video or photographic frames are ever saved to local storage or transmitted across network interfaces.
         </li>
         <li>
-          <strong>Photo Library (Image Compressor &amp; EXIF Remover):</strong> Used strictly to read the image you explicitly select for compression or EXIF inspection, and to save the processed result back to your library. Your photos never leave your device.
+          <strong>Photo Library (Image Compressor &amp; EXIF Remover):</strong> Accessed solely to read files explicitly selected by the user for on-device processing and to write resulting outputs back to Photos. Your imagery never leaves local device memory.
         </li>
         <li>
-          <strong>Microphone &amp; Speech Recognition (Linecast Teleprompter):</strong> Used in-memory to synchronize teleprompter text scrolling to your voice. Audio processing is executed locally on Apple's on-device Speech engine.
+          <strong>Audio &amp; Speech Frameworks (Linecast &amp; Voice to Text):</strong> Voice audio is processed entirely on the local Apple Neural Engine using Apple's on-device speech recognition models. Audio buffers are discarded immediately after transcript generation.
         </li>
         <li>
-          <strong>Haptics &amp; Audio (Beatwise &amp; Row Counter):</strong> Used for tactile tap feedback and sample-accurate metronome clicks via standard iOS system sound APIs.
+          <strong>Microphone Input (Decibel Meter &amp; Beatwise):</strong> Acoustic SPL and FFT calculations occur entirely in ephemeral memory buffers via Accelerate vDSP. No audio recordings are written or saved.
         </li>
       </ul>
 
-      <h2>4. In-App Purchases &amp; Financial Data</h2>
+      <h2>4. Financial Data &amp; In-App Purchases</h2>
       <p>
-        Any optional lifetime pro unlocks or tip purchases are processed directly by Apple Inc. through the App Store using StoreKit. TestSoft has no access to your payment methods, credit card details, or billing address.
+        All transactions for optional lifetime pro upgrades are handled directly by Apple Inc. via the App Store (StoreKit 2). TestSoft has no visibility into or custody over your credit card details, billing address, or payment identities.
       </p>
 
       <h2>5. Apple App Store Privacy Nutrition Labels</h2>
       <p>
-        In accordance with Apple App Store developer requirements, TestSoft's applications report: <strong>"Data Not Collected"</strong>.
+        In compliance with Apple App Store developer regulations, TestSoft's applications report: <strong>"Data Not Collected"</strong>.
       </p>
 
-      <h2>6. Contact Regarding Privacy</h2>
+      <h2>6. Privacy Officer &amp; Inquiries</h2>
       <p>
-        If you have questions, feedback, or concerns regarding our privacy practices, please contact our engineering desk directly at:
+        For security audits, privacy questions, or verification inquiries:
       </p>
       <p>
+        <strong>Principal Engineer:</strong> Hayri Odabaş<br>
         <strong>Email:</strong> <a href="mailto:hayriodabas@testsoftlab.com" style="color:var(--accent-cyan);">hayriodabas@testsoftlab.com</a><br>
-        <strong>Studio Domain:</strong> https://testsoftlab.com
+        <strong>Domain:</strong> https://testsoftlab.com
       </p>
     </article>
   </main>
 
   <footer class="footer">
     <div class="container footer-bottom">
-      <p>© 2026 TestSoft (TestSoft Lab). All rights reserved.</p>
+      <p>© 2026 TestSoft Lab (Hayri Odabaş). All rights reserved.</p>
     </div>
   </footer>
 </body>
