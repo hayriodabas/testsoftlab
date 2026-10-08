@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TestSoft — Independent iOS Studio | Native, Private, Offline Tools</title>
+  <meta name="description" content="TestSoft builds high-precision, privacy-first native iOS and iPadOS utility apps. Zero tracking, no subscriptions, 100% on-device performance.">
+  <meta name="theme-color" content="#090d16">
+  
+  <!-- Open Graph / Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://testsoftlab.com/">
+  <meta property="og:title" content="TestSoft — Independent iOS Studio">
+  <meta property="og:description" content="High-precision, privacy-first native iOS utilities. Zero tracking, no predatory subscriptions.">
+  <meta property="og:image" content="assets/images/screenshot-plantlight.jpg">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/images/icon-plantlight.png">
+</head>
+<body>
+
+  <!-- Background Ambient Glows -->
+  <div class="ambient-glow glow-top"></div>
+  <div class="ambient-glow glow-mid"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#hero" class="brand">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <span class="brand-name">TestSoft<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#featured">Featured</a>
+        <a href="#apps">Portfolio</a>
+        <a href="#principles">Philosophy</a>
+        <a href="#contact">Contact</a>
+        <a href="support.html">Support</a>
+      </nav>
+
+      <div class="nav-action">
+        <a href="mailto:hayriodabas@testsoftlab.com" class="btn btn-sm btn-outline">
+          <span>hayriodabas@testsoftlab.com</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <div class="badge-pill">
+          <span class="badge-indicator"></span>
+          <span>Independent Apple Developer Studio</span>
+        </div>
+        <h1 class="hero-title">
+          Native iOS Utilities.<br>
+          <span class="gradient-text">Pure Privacy. Zero Subscriptions.</span>
+        </h1>
+        <p class="hero-subtitle">
+          TestSoft designs and engineers hyper-focused, beautifully crafted iPhone and iPad applications. Built strictly with native Swift & Metal — no accounts required, no tracking SDKs, and no recurring paywalls.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#featured" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>Explore Plant Light Meter</span>
+          </a>
+          <a href="#apps" class="btn btn-secondary">
+            <span>Browse All 9+ Apps</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">On-Device Processing</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Data Trackers</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">12+</span>
+            <span class="stat-label">Languages Supported</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Interactive Device Preview -->
+      <div class="hero-visual">
+        <div class="phone-frame-wrapper">
+          <div class="phone-frame">
+            <div class="phone-dynamic-island"></div>
+            <div class="phone-screen">
+              <img id="hero-screen-img" src="assets/images/screenshot-plantlight.jpg" alt="Plant Light Meter App Preview" class="screen-preview active">
+            </div>
+          </div>
+          <div class="device-reflection"></div>
+        </div>
+
+        <div class="interactive-preview-chips">
+          <button class="preview-chip active" data-img="assets/images/screenshot-plantlight.jpg" data-app="Plant Light Meter">
+            <img src="assets/images/icon-plantlight.png" alt="" width="20" height="20">
+            <span>Plant Light</span>
+          </button>
+          <button class="preview-chip" data-img="assets/images/screenshot-imagecompressor.jpg" data-app="Image Compressor">
+            <img src="assets/images/icon-imagecompressor.png" alt="" width="20" height="20">
+            <span>Compressor</span>
+          </button>
+          <button class="preview-chip" data-img="assets/images/screenshot-linecast.jpg" data-app="Linecast Teleprompter">
+            <img src="assets/images/icon-linecast.png" alt="" width="20" height="20">
+            <span>Linecast</span>
+          </button>
+          <button class="preview-chip" data-img="assets/images/screenshot-beatwise.jpg" data-app="Beatwise Metronome">
+            <img src="assets/images/icon-beatwise.png" alt="" width="20" height="20">
+            <span>Beatwise</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spotlight: Plant Light Meter (User's Featured App) -->
+  <section class="section spotlight-section" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Flagship Showcase</div>
+        <h2 class="section-title">Plant Light Meter: Lux &amp; DLI</h2>
+        <p class="section-desc">
+          Measure light right where your plant stands and match it with over 100+ species. Instant optical exposure analysis without expensive lab equipment.
+        </p>
+      </div>
+
+      <div class="spotlight-card">
+        <div class="spotlight-content">
+          <div class="app-identity">
+            <img src="assets/images/icon-plantlight.png" alt="Plant Light Meter Icon" class="app-icon-large">
+            <div>
+              <h3 class="app-title-featured">Plant Light Meter</h3>
+              <p class="app-subtitle-featured">Lux &amp; Daily Light Integral for Indoor Plants</p>
+              <div class="app-meta-tags">
+                <span class="meta-tag">iOS 17+ &amp; iPadOS</span>
+                <span class="meta-tag">App Store ID: 6813500465</span>
+                <span class="meta-tag highlight">Privacy Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="spotlight-narrative">
+            Most houseplant care guides recommend "bright indirect light," but what does that really mean? Plant Light Meter turns your iPhone camera into an ambient light analyzer. Lay your device where your plant stands, screen facing the window, and get an immediate, calibrated reading in seconds.
+          </p>
+
+          <div class="feature-checklist">
+            <div class="feature-check-item">
+              <div class="check-icon">✓</div>
+              <div>
+                <strong>Light Bands &amp; Plant Matching:</strong>
+                <span>Instant classification into Low, Medium, Bright Indirect, or Direct Sun with matching species profiles.</span>
+              </div>
+            </div>
+            <div class="feature-check-item">
+              <div class="check-icon">✓</div>
+              <div>
+                <strong>DLI (Daily Light Integral) Calculator:</strong>
+                <span>Calculate total photosynthetically active radiation over the course of the day for sunlight and LED grow lights.</span>
+              </div>
+            </div>
+            <div class="feature-check-item">
+              <div class="check-icon">✓</div>
+              <div>
+                <strong>100% Private Camera Analysis:</strong>
+                <span>Uses camera sensor exposure parameters in real time. Never captures, saves, or transmits any photos.</span>
+              </div>
+            </div>
+            <div class="feature-check-item">
+              <div class="check-icon">✓</div>
+              <div>
+                <strong>One-Time Lifetime Ownership:</strong>
+                <span>Essential measuring is completely free. Optional $3.99 lifetime unlock for spot saving &amp; DLI mode. No subscriptions.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotlight-actions">
+            <a href="https://apps.apple.com/app/id6813500465" target="_blank" rel="noopener" class="app-store-badge">
+              <svg viewBox="0 0 170 170" width="28" height="28" fill="currentColor">
+                <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.7-3.03-7.61-7.79-11.73-14.28-5.46-8.59-9.84-18.49-13.14-29.7-3.3-11.21-4.96-22.18-4.96-32.92 0-14.73 3.65-27.18 10.95-37.34 7.3-10.16 16.59-15.34 27.87-15.54 4.58 0 9.87 1.25 15.87 3.75 6 2.5 10.23 3.75 12.69 3.75 2.01 0 6.33-1.3 12.95-3.9 6.62-2.6 12.18-3.79 16.68-3.56 12.44.62 22.48 5.48 30.12 14.58-10.88 6.57-16.21 15.75-15.99 27.53.22 9.17 3.76 16.94 10.63 23.32 6.87 6.38 15.11 10.02 24.72 10.91-2.24 6.74-4.8 13.31-7.68 19.71zM119.22 33.15c0-7.3 2.66-14.33 7.98-21.09 5.32-6.76 12.04-11.23 20.16-13.41.45 2.12.68 4.19.68 6.21 0 7.3-2.73 14.27-8.19 20.91-5.46 6.64-12.28 11.02-20.46 13.14-.11-1.9-.17-3.82-.17-5.76z"/>
+              </svg>
+              <div class="badge-text">
+                <span class="badge-sup">Download on the</span>
+                <span class="badge-sub">App Store</span>
+              </div>
+            </a>
+            <a href="support.html?app=plantlight" class="btn btn-outline">
+              <span>Documentation &amp; FAQ</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="spotlight-visual">
+          <img src="assets/images/screenshot-plantlight.jpg" alt="Plant Light Meter Interface" class="spotlight-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Apps Showcase Grid -->
+  <section class="section apps-section" id="apps">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">TestSoft Portfolio</div>
+        <h2 class="section-title">Engineered for Utility &amp; Delight</h2>
+        <p class="section-desc">
+          Single-purpose instruments built to do one thing exceptionally well. Zero bloat, zero tracking.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Applications</button>
+        <button class="filter-btn" data-filter="utility">Utilities &amp; Tools</button>
+        <button class="filter-btn" data-filter="creative">Photo &amp; Media</button>
+        <button class="filter-btn" data-filter="lifestyle">Lifestyle &amp; Daily</button>
+      </div>
+
+      <div class="apps-grid">
+        <!-- 1. Plant Light Meter -->
+        <div class="app-card" data-category="lifestyle utility">
+          <div class="app-card-header">
+            <img src="assets/images/icon-plantlight.png" alt="Plant Light Meter" class="app-card-icon">
+            <span class="app-card-badge">Flagship</span>
+          </div>
+          <h3 class="app-card-title">Plant Light Meter</h3>
+          <p class="app-card-tagline">Lux &amp; DLI measurement for houseplants</p>
+          <p class="app-card-desc">
+            Measure spot brightness and match with 100+ species. Calculate daily light integral for natural and LED grow lights.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $3.99 Lifetime</span>
+            <a href="#featured" class="card-link">Details →</a>
+          </div>
+        </div>
+
+        <!-- 2. Image Compressor -->
+        <div class="app-card" data-category="creative utility">
+          <div class="app-card-header">
+            <img src="assets/images/icon-imagecompressor.png" alt="Image Compressor Offline" class="app-card-icon">
+            <span class="app-card-badge">Offline Tool</span>
+          </div>
+          <h3 class="app-card-title">Image Compressor Offline</h3>
+          <p class="app-card-tagline">High-speed on-device photo compression</p>
+          <p class="app-card-desc">
+            Reduce photo file sizes by up to 90% right on your iPhone. Zero cloud uploads, zero risk to your private memories.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $4.99 Lifetime</span>
+            <a href="support.html?app=imagecompressor" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 3. EXIF Remover -->
+        <div class="app-card" data-category="creative utility">
+          <div class="app-card-header">
+            <img src="assets/images/icon-exifremover.png" alt="EXIF Remover" class="app-card-icon">
+            <span class="app-card-badge">Privacy</span>
+          </div>
+          <h3 class="app-card-title">EXIF Remover &amp; Metadata</h3>
+          <p class="app-card-tagline">Inspect &amp; strip sensitive photo metadata</p>
+          <p class="app-card-desc">
+            Inspect GPS coordinates, camera model, and timestamp metadata. Strip EXIF data with one tap before sharing.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $3.99 Lifetime</span>
+            <a href="support.html?app=exifremover" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 4. Linecast Teleprompter -->
+        <div class="app-card" data-category="creative">
+          <div class="app-card-header">
+            <img src="assets/images/icon-linecast.png" alt="Linecast Teleprompter" class="app-card-icon">
+            <span class="app-card-badge">Creator Tool</span>
+          </div>
+          <h3 class="app-card-title">Linecast: Teleprompter</h3>
+          <p class="app-card-tagline">Voice-synced script scrolling &amp; video recording</p>
+          <p class="app-card-desc">
+            Speak naturally while the teleprompter tracks your cadence in real time using on-device speech recognition.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $4.99 Lifetime</span>
+            <a href="support.html?app=linecast" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 5. Beatwise Metronome -->
+        <div class="app-card" data-category="creative utility">
+          <div class="app-card-header">
+            <img src="assets/images/icon-beatwise.png" alt="Beatwise Metronome" class="app-card-icon">
+            <span class="app-card-badge">Audio Engine</span>
+          </div>
+          <h3 class="app-card-title">Beatwise: Metronome</h3>
+          <p class="app-card-tagline">Sample-accurate timing for musicians</p>
+          <p class="app-card-desc">
+            Engineered with AVAudioEngine for zero drift (±1 sample precision). Visual subdivisions and tactile haptics.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $3.99 Lifetime</span>
+            <a href="support.html?app=beatwise" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 6. Elements: Periodic Table Quiz -->
+        <div class="app-card" data-category="lifestyle">
+          <div class="app-card-header">
+            <img src="assets/images/icon-periodictable.png" alt="Periodic Table Quiz" class="app-card-icon">
+            <span class="app-card-badge">Education</span>
+          </div>
+          <h3 class="app-card-title">Elements: Periodic Table</h3>
+          <p class="app-card-tagline">Interactive chemistry reference &amp; quiz</p>
+          <p class="app-card-desc">
+            Master all 118 elements: atomic numbers, chemical groups, and symbols with spaced-repetition training.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $3.99 Lifetime</span>
+            <a href="support.html?app=periodictable" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 7. Dart Counter -->
+        <div class="app-card" data-category="lifestyle">
+          <div class="app-card-header">
+            <img src="assets/images/icon-darts.png" alt="Dart Counter" class="app-card-icon">
+            <span class="app-card-badge">Sports</span>
+          </div>
+          <h3 class="app-card-title">Dart Counter: 501 Scoreboard</h3>
+          <p class="app-card-tagline">Live dart-by-dart scorekeeper &amp; checkout engine</p>
+          <p class="app-card-desc">
+            Supports 301, 501, checkout suggestions, automatic bust detection, and live match averages.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $4.99 Lifetime</span>
+            <a href="support.html?app=darts" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 8. Tilgungsplan Loan Calculator -->
+        <div class="app-card" data-category="utility">
+          <div class="app-card-header">
+            <img src="assets/images/icon-loancalculator.png" alt="Tilgungsplan Loan Calculator" class="app-card-icon">
+            <span class="app-card-badge">Finance</span>
+          </div>
+          <h3 class="app-card-title">Tilgungsplan: Loan Calculator</h3>
+          <p class="app-card-tagline">Amortization schedules &amp; early repayment</p>
+          <p class="app-card-desc">
+            Model loan terms, interest rates, and extra repayment impacts. Export clear schedules instantly without cloud sync.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $4.99 Lifetime</span>
+            <a href="support.html?app=loancalculator" class="card-link">Support →</a>
+          </div>
+        </div>
+
+        <!-- 9. Row Counter -->
+        <div class="app-card" data-category="lifestyle utility">
+          <div class="app-card-header">
+            <img src="assets/images/icon-rowcounter.png" alt="Row Counter" class="app-card-icon">
+            <span class="app-card-badge">Crafting</span>
+          </div>
+          <h3 class="app-card-title">Row Counter: Knit &amp; Crochet</h3>
+          <p class="app-card-tagline">Tactile tally counter for knitters and makers</p>
+          <p class="app-card-desc">
+            Track rows, repeats, and patterns with large tactile tap targets, haptic feedback, and multi-project support.
+          </p>
+          <div class="app-card-footer">
+            <span class="price-pill">Free + $3.99 Lifetime</span>
+            <a href="support.html?app=rowcounter" class="card-link">Support →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Studio Principles -->
+  <section class="section principles-section" id="principles">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">The TestSoft Philosophy</div>
+        <h2 class="section-title">Built with Uncompromising Standards</h2>
+        <p class="section-desc">
+          Software should serve you, not exploit your attention or siphon your personal data.
+        </p>
+      </div>
+
+      <div class="principles-grid">
+        <div class="principle-card">
+          <div class="principle-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+          </div>
+          <h3 class="principle-title">Zero Data Collection</h3>
+          <p class="principle-desc">
+            No analytics SDKs, no behavioral tracking, no third-party ad networks. Our App Store privacy nutrition label states: <strong>"Data Not Collected"</strong>.
+          </p>
+        </div>
+
+        <div class="principle-card">
+          <div class="principle-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+            </svg>
+          </div>
+          <h3 class="principle-title">Native Swift &amp; Metal</h3>
+          <p class="principle-desc">
+            No bloated cross-platform web wrappers. Pure Swift, SwiftUI, and hardware-accelerated Apple APIs guarantee 120fps fluid responsiveness and minimal battery drain.
+          </p>
+        </div>
+
+        <div class="principle-card">
+          <div class="principle-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <h3 class="principle-title">No Recurring Subscriptions</h3>
+          <p class="principle-desc">
+            We reject the subscription trap. Core utilities are free to use; pro feature upgrades are simple, transparent, one-time lifetime purchases. Buy once, own forever.
+          </p>
+        </div>
+
+        <div class="principle-card">
+          <div class="principle-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <h3 class="principle-title">100% Offline-First</h3>
+          <p class="principle-desc">
+            Everything runs locally on your device's neural engine and CPU. No server downtime, no internet requirement, no mandatory account registrations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Studio Support -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-info">
+          <div class="section-tag">Direct Communication</div>
+          <h2 class="contact-heading">Get in Touch with TestSoft</h2>
+          <p class="contact-sub">
+            Whether you need product support, have a feature suggestion, or want to discuss enterprise licensing, we reply directly from our engineering desk.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="detail-icon">✉</div>
+              <div>
+                <span class="detail-label">Official Studio Email</span>
+                <a href="mailto:hayriodabas@testsoftlab.com" class="detail-value">hayriodabas@testsoftlab.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="detail-icon">🌐</div>
+              <div>
+                <span class="detail-label">Official Domain</span>
+                <span class="detail-value">testsoftlab.com</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="detail-icon">🏢</div>
+              <div>
+                <span class="detail-label">Developer Studio</span>
+                <span class="detail-value">TestSoft Lab / Hayri Odabaş</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-action-box">
+          <h3 class="action-box-title">Send a Direct Message</h3>
+          <p class="action-box-text">Click below to open your preferred email client with pre-filled support headers.</p>
+          
+          <div class="form-group">
+            <label for="contact-topic">Inquiry Topic</label>
+            <select id="contact-topic" class="form-input">
+              <option value="Plant Light Meter Support">Plant Light Meter: Lux &amp; DLI Support</option>
+              <option value="Image Compressor Support">Image Compressor Support</option>
+              <option value="Linecast Teleprompter Support">Linecast Teleprompter Support</option>
+              <option value="General Studio Inquiry">General Studio Inquiry</option>
+              <option value="Feature Request">Feature Request / Feedback</option>
+            </select>
+          </div>
+
+          <a id="email-compose-btn" href="mailto:hayriodabas@testsoftlab.com?subject=Inquiry%20regarding%20Plant%20Light%20Meter" class="btn btn-primary btn-block">
+            <span>Send Email to TestSoft</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </a>
+          <p class="action-box-note">Expected reply within 24 hours on business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="brand-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <span class="brand-name">TestSoft</span>
+          </div>
+          <p class="footer-about">
+            Independent iOS engineering studio crafting respectful, on-device tools for Apple devices.
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Applications</h4>
+          <a href="#featured">Plant Light Meter</a>
+          <a href="#apps">Image Compressor</a>
+          <a href="#apps">EXIF Remover</a>
+          <a href="#apps">Linecast Teleprompter</a>
+          <a href="#apps">Beatwise Metronome</a>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Studio &amp; Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">App Support &amp; FAQ</a>
+          <a href="mailto:hayriodabas@testsoftlab.com">Contact Us</a>
+          <a href="https://appstoreconnect.apple.com" target="_blank" rel="noopener">Apple Developer Info</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TestSoft (TestSoft Lab). All rights reserved.</p>
+        <p class="footer-disclaimer">
+          Apple, iPhone, iPad, iOS, iPadOS and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

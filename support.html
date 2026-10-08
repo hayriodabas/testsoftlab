@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Support &amp; FAQ — TestSoft</title>
+  <meta name="description" content="Support and documentation for TestSoft iOS applications including Plant Light Meter, Image Compressor, EXIF Remover, and more.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/images/icon-plantlight.png">
+  <style>
+    .support-wrap {
+      max-width: 900px;
+      margin: 60px auto 100px;
+    }
+    .faq-block {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+    .faq-block h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      color: var(--accent-cyan);
+    }
+    .faq-block p, .faq-block li {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      line-height: 1.65;
+      margin-bottom: 12px;
+    }
+    .faq-block ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    .app-support-card {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+    .app-support-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 14px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <span class="brand-name">TestSoft<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html#apps">All Apps</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:hayriodabas@testsoftlab.com" class="btn btn-sm btn-outline">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container support-wrap">
+    <div class="section-header" style="text-align: left; margin-bottom: 40px;">
+      <div class="section-tag">Help Desk &amp; Documentation</div>
+      <h1 class="section-title">TestSoft App Support</h1>
+      <p class="section-desc">
+        Frequently asked questions and direct support for all TestSoft iOS applications.
+      </p>
+    </div>
+
+    <!-- General In-App Purchases & Restoration -->
+    <div class="faq-block">
+      <h3>Restoring In-App Purchases</h3>
+      <p>
+        <strong>How do I restore my purchase on a new iPhone or after reinstalling?</strong>
+      </p>
+      <p>
+        All TestSoft purchases are permanent lifetime unlocks associated with your Apple ID. To restore:
+      </p>
+      <ul>
+        <li>Open the application on your device.</li>
+        <li>Navigate to <strong>Settings</strong> or tap the lock icon on the unlock screen.</li>
+        <li>Tap <strong>Restore Purchases</strong>.</li>
+        <li>You will never be charged twice for a lifetime purchase with the same Apple ID.</li>
+      </ul>
+    </div>
+
+    <!-- Plant Light Meter Guide -->
+    <div class="faq-block" id="plantlight">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <img src="assets/images/icon-plantlight.png" alt="" width="36" height="36" style="border-radius:8px;">
+        <h3 style="margin:0;">Plant Light Meter: Lux &amp; DLI FAQ</h3>
+      </div>
+      <p><strong>How should I position my device when taking a measurement?</strong></p>
+      <p>
+        Place your iPhone flat at the exact location where your plant's foliage receives light, with the screen facing toward the primary light source (such as the window or grow lamp). Allow 1-2 seconds for the optical exposure sensor to stabilize.
+      </p>
+      <p><strong>Does the app save or upload photos?</strong></p>
+      <p>
+        No. The camera is accessed purely in real time to read exposure parameters (shutter speed, ISO, and aperture). No photo is ever taken, written to disk, or transmitted over any network.
+      </p>
+      <p><strong>What is DLI (Daily Light Integral)?</strong></p>
+      <p>
+        DLI measures the cumulative amount of photosynthetically active radiation your plant receives over a 24-hour cycle (expressed in mol/m²/day). You can input the number of hours the spot receives sunlight or grow light to see the calculated DLI.
+      </p>
+    </div>
+
+    <!-- Image Compressor FAQ -->
+    <div class="faq-block" id="imagecompressor">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <img src="assets/images/icon-imagecompressor.png" alt="" width="36" height="36" style="border-radius:8px;">
+        <h3 style="margin:0;">Image Compressor Offline FAQ</h3>
+      </div>
+      <p><strong>Are my photos uploaded to a cloud server?</strong></p>
+      <p>
+        Never. All compression algorithms execute natively on your iPhone's hardware. The app works fully offline in Airplane Mode.
+      </p>
+      <p><strong>Does compression delete my original photos?</strong></p>
+      <p>
+        No. The compressed version is saved as a separate copy or exported to your desired destination. Your originals in your Photos library remain intact unless you choose to delete them.
+      </p>
+    </div>
+
+    <!-- Direct Support Contact Card -->
+    <div class="contact-card" style="margin-top: 40px;">
+      <div>
+        <div class="section-tag">Need more assistance?</div>
+        <h2 style="font-size: 1.8rem; margin-bottom: 12px;">Contact Engineering Directly</h2>
+        <p style="color: var(--text-muted); margin-bottom: 24px;">
+          Have a question that isn't answered here or want to request a feature? We usually reply within 24 hours.
+        </p>
+        <p style="font-size: 1.1rem; font-weight: 600;">
+          Email: <a href="mailto:hayriodabas@testsoftlab.com" style="color: var(--accent-cyan);">hayriodabas@testsoftlab.com</a>
+        </p>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;">
+        <a href="mailto:hayriodabas@testsoftlab.com?subject=Support%20Request%20-%20TestSoft" class="btn btn-primary">
+          <span>Open Email Client</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <p>© 2026 TestSoft (TestSoft Lab). All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
